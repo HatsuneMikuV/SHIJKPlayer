@@ -22,7 +22,7 @@
                                 <rect key="frame" x="112" y="304" width="150" height="45"/>
                                 <color key="backgroundColor" red="0.77647058823529413" green="0.93725490196078431" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="K0e-Q9-ALu"/>
+                                    <constraint firstAttribute="width" constant="150" id="PG9-yo-en6"/>
                                     <constraint firstAttribute="height" constant="45" id="yTj-sl-okc"/>
                                 </constraints>
                                 <state key="normal" title="全屏播放"/>
@@ -35,7 +35,7 @@
                                 <color key="backgroundColor" red="0.68627450980392157" green="0.92941176470588238" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="bFo-Qo-HQ9"/>
-                                    <constraint firstAttribute="width" constant="150" id="knf-e6-2Hr"/>
+                                    <constraint firstAttribute="width" constant="150" id="pb9-4q-bR2"/>
                                 </constraints>
                                 <state key="normal" title="普通视频播放"/>
                                 <connections>
@@ -46,7 +46,7 @@
                                 <rect key="frame" x="112" y="209" width="150" height="45"/>
                                 <color key="backgroundColor" red="0.68627450980392157" green="0.92941176470588238" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="60J-Mg-FMB"/>
+                                    <constraint firstAttribute="width" constant="150" id="FdK-gX-rQ9"/>
                                     <constraint firstAttribute="height" constant="45" id="LtH-s4-fb3"/>
                                 </constraints>
                                 <state key="normal" title="分片视频播放"/>

@@ -13,10 +13,41 @@
 		7CA4A9181FCC1BFB00EAE41D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4A9171FCC1BFB00EAE41D /* Assets.xcassets */; };
 		7CA4A91B1FCC1BFB00EAE41D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4A9191FCC1BFB00EAE41D /* LaunchScreen.storyboard */; };
 		7CA4A91E1FCC1BFB00EAE41D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4A91D1FCC1BFB00EAE41D /* main.m */; };
-		7CA4A92B1FCC232700EAE41D /* readme in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4A92A1FCC232700EAE41D /* readme */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7C50EACF1FCD4798005212CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C50EAC91FCD4797005212CC /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E654EA8A1B6B27E600B0F2D0;
+			remoteInfo = IJKMediaFramework;
+		};
+		7C50EAD11FCD4798005212CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C50EAC91FCD4797005212CC /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5450B0431E63EA4300568494;
+			remoteInfo = IJKMediaFrameworkWithSSL;
+		};
+		7C50EAD31FCD4798005212CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C50EAC91FCD4797005212CC /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E654EA941B6B27E600B0F2D0;
+			remoteInfo = IJKMediaFrameworkTests;
+		};
+		7C50EAD51FCD47DE005212CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C50EAC91FCD4797005212CC /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E654EA891B6B27E600B0F2D0;
+			remoteInfo = IJKMediaFramework;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		7C50EAC91FCD4797005212CC /* IJKMediaPlayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IJKMediaPlayer.xcodeproj; path = ../ijkplayer/ios/IJKMediaPlayer/IJKMediaPlayer.xcodeproj; sourceTree = "<group>"; };
 		7CA4A90B1FCC1BFB00EAE41D /* SHIJKPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHIJKPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA4A90E1FCC1BFB00EAE41D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7CA4A90F1FCC1BFB00EAE41D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,7 +58,6 @@
 		7CA4A91A1FCC1BFB00EAE41D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CA4A91C1FCC1BFB00EAE41D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CA4A91D1FCC1BFB00EAE41D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7CA4A92A1FCC232700EAE41D /* readme */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,9 +71,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C50EACA1FCD4797005212CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C50EAD01FCD4798005212CC /* IJKMediaFramework.framework */,
+				7C50EAD21FCD4798005212CC /* IJKMediaFrameworkWithSSL.framework */,
+				7C50EAD41FCD4798005212CC /* IJKMediaFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7CA4A9021FCC1BFB00EAE41D = {
 			isa = PBXGroup;
 			children = (
+				7C50EAC91FCD4797005212CC /* IJKMediaPlayer.xcodeproj */,
 				7CA4A90D1FCC1BFB00EAE41D /* SHIJKPlayer */,
 				7CA4A90C1FCC1BFB00EAE41D /* Products */,
 			);
@@ -60,7 +101,6 @@
 		7CA4A90D1FCC1BFB00EAE41D /* SHIJKPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				7CA4A9241FCC1FA400EAE41D /* SHIJKPlayer */,
 				7CA4A90E1FCC1BFB00EAE41D /* AppDelegate.h */,
 				7CA4A90F1FCC1BFB00EAE41D /* AppDelegate.m */,
 				7CA4A9111FCC1BFB00EAE41D /* ViewController.h */,
@@ -72,22 +112,6 @@
 				7CA4A91D1FCC1BFB00EAE41D /* main.m */,
 			);
 			path = SHIJKPlayer;
-			sourceTree = "<group>";
-		};
-		7CA4A9241FCC1FA400EAE41D /* SHIJKPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				7CA4A9291FCC22FD00EAE41D /* IJKPlayer */,
-			);
-			path = SHIJKPlayer;
-			sourceTree = "<group>";
-		};
-		7CA4A9291FCC22FD00EAE41D /* IJKPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				7CA4A92A1FCC232700EAE41D /* readme */,
-			);
-			path = IJKPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +128,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				7C50EAD61FCD47DE005212CC /* PBXTargetDependency */,
 			);
 			name = SHIJKPlayer;
 			productName = SHIJKPlayer;
@@ -136,6 +161,12 @@
 			mainGroup = 7CA4A9021FCC1BFB00EAE41D;
 			productRefGroup = 7CA4A90C1FCC1BFB00EAE41D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7C50EACA1FCD4797005212CC /* Products */;
+					ProjectRef = 7C50EAC91FCD4797005212CC /* IJKMediaPlayer.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7CA4A90A1FCC1BFB00EAE41D /* SHIJKPlayer */,
@@ -143,12 +174,35 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		7C50EAD01FCD4798005212CC /* IJKMediaFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IJKMediaFramework.framework;
+			remoteRef = 7C50EACF1FCD4798005212CC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7C50EAD21FCD4798005212CC /* IJKMediaFrameworkWithSSL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IJKMediaFrameworkWithSSL.framework;
+			remoteRef = 7C50EAD11FCD4798005212CC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7C50EAD41FCD4798005212CC /* IJKMediaFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = IJKMediaFrameworkTests.xctest;
+			remoteRef = 7C50EAD31FCD4798005212CC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		7CA4A9091FCC1BFB00EAE41D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CA4A92B1FCC232700EAE41D /* readme in Resources */,
 				7CA4A91B1FCC1BFB00EAE41D /* LaunchScreen.storyboard in Resources */,
 				7CA4A9181FCC1BFB00EAE41D /* Assets.xcassets in Resources */,
 				7CA4A9161FCC1BFB00EAE41D /* Main.storyboard in Resources */,
@@ -169,6 +223,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C50EAD61FCD47DE005212CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IJKMediaFramework;
+			targetProxy = 7C50EAD51FCD47DE005212CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7CA4A9141FCC1BFB00EAE41D /* Main.storyboard */ = {
@@ -238,7 +300,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -287,7 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -305,6 +367,7 @@
 					"$(PROJECT_DIR)/SHIJKPlayer/SHIJKPlayer",
 				);
 				INFOPLIST_FILE = SHIJKPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.angle.SHIJKPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -323,6 +386,7 @@
 					"$(PROJECT_DIR)/SHIJKPlayer/SHIJKPlayer",
 				);
 				INFOPLIST_FILE = SHIJKPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.angle.SHIJKPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
