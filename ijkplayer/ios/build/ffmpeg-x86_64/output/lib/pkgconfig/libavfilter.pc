@@ -1,0 +1,14 @@
+prefix=/Users/angle/Desktop/ijkGL/ijk/ios/build/ffmpeg-x86_64/output
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 6.82.100
+Requires: libavutil >= 55.58.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavfilter -lssl -lcrypto -lm -lbz2 -lz -pthread
+Libs.private: 
+Cflags: -I${includedir}
