@@ -13,9 +13,13 @@
 /* 分片视频的时长，单位s */
 @property (nonatomic, copy) NSString *duration;
 
+/* 分片视频的时长，单位B */
+@property (nonatomic, copy) NSString *size;
+
 /* 分片视频的url */
 @property (nonatomic, copy) NSString *url;
 
++ (SHVideoInfoModel *)modelWithDict:(NSDictionary *)dict;
 
 /**
  将分片视频写入本地并读出相对应的url

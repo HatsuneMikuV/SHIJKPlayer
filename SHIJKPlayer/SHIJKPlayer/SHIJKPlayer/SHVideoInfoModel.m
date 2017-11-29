@@ -10,6 +10,18 @@
 
 @implementation SHVideoInfoModel
 
++ (SHVideoInfoModel *)modelWithDict:(NSDictionary *)dict {
+    return [[self alloc] initWithDict:dict];
+}
+- (instancetype)initWithDict:(NSDictionary *)dict {
+    if (self = [super init]) {
+        [self setValuesForKeysWithDictionary:dict];
+    }
+    return self;
+}
+- (void)setValue:(id)value forUndefinedKey:(NSString *)key {
+    NSLog(@"%@未使用的key---%@",self.class,key);
+}
 
 + (NSURL *)writeTofeildWithData:(NSArray<SHVideoInfoModel *> *)urlArr {
     if ([urlArr count] == 0) {

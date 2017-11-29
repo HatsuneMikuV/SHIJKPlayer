@@ -34,6 +34,8 @@
 		7CA4A9181FCC1BFB00EAE41D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4A9171FCC1BFB00EAE41D /* Assets.xcassets */; };
 		7CA4A91B1FCC1BFB00EAE41D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4A9191FCC1BFB00EAE41D /* LaunchScreen.storyboard */; };
 		7CA4A91E1FCC1BFB00EAE41D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4A91D1FCC1BFB00EAE41D /* main.m */; };
+		7CBC374D1FCE821300A3DD02 /* Video.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CBC374C1FCE821300A3DD02 /* Video.json */; };
+		7CBC37521FCE84B600A3DD02 /* VideoDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC37511FCE84B600A3DD02 /* VideoDataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +108,9 @@
 		7CA4A91A1FCC1BFB00EAE41D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CA4A91C1FCC1BFB00EAE41D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CA4A91D1FCC1BFB00EAE41D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CBC374C1FCE821300A3DD02 /* Video.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Video.json; sourceTree = "<group>"; };
+		7CBC37501FCE84B600A3DD02 /* VideoDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoDataModel.h; sourceTree = "<group>"; };
+		7CBC37511FCE84B600A3DD02 /* VideoDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoDataModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +180,7 @@
 				7C50EB191FCE6D2E005212CC /* SHVideoInfoModel.h */,
 				7C50EB1A1FCE6D2E005212CC /* SHVideoInfoModel.m */,
 				7C50EB1C1FCE6DB3005212CC /* SHIJKPlayer.h */,
+				7CBC374C1FCE821300A3DD02 /* Video.json */,
 			);
 			path = SHIJKPlayer;
 			sourceTree = "<group>";
@@ -211,6 +217,8 @@
 				7C50EB0D1FCE6C8B005212CC /* ShardViewController.m */,
 				7C50EB0F1FCE6C9C005212CC /* FullScreenViewController.h */,
 				7C50EB101FCE6C9C005212CC /* FullScreenViewController.m */,
+				7CBC37501FCE84B600A3DD02 /* VideoDataModel.h */,
+				7CBC37511FCE84B600A3DD02 /* VideoDataModel.m */,
 				7CA4A9141FCC1BFB00EAE41D /* Main.storyboard */,
 				7CA4A9171FCC1BFB00EAE41D /* Assets.xcassets */,
 				7CA4A9191FCC1BFB00EAE41D /* LaunchScreen.storyboard */,
@@ -309,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CBC374D1FCE821300A3DD02 /* Video.json in Resources */,
 				7CA4A91B1FCC1BFB00EAE41D /* LaunchScreen.storyboard in Resources */,
 				7CA4A9181FCC1BFB00EAE41D /* Assets.xcassets in Resources */,
 				7CA4A9161FCC1BFB00EAE41D /* Main.storyboard in Resources */,
@@ -327,6 +336,7 @@
 				7C50EB151FCE6CF5005212CC /* SHIJKPlayerView.m in Sources */,
 				7CA4A91E1FCC1BFB00EAE41D /* main.m in Sources */,
 				7C50EB181FCE6D18005212CC /* SHIJKPlayerVController.m in Sources */,
+				7CBC37521FCE84B600A3DD02 /* VideoDataModel.m in Sources */,
 				7C50EB0B1FCE6C6C005212CC /* DefaultViewController.m in Sources */,
 				7CA4A9101FCC1BFB00EAE41D /* AppDelegate.m in Sources */,
 				7C50EB0E1FCE6C8B005212CC /* ShardViewController.m in Sources */,
