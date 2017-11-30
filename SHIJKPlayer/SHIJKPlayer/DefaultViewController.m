@@ -20,12 +20,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-   
+    
+    self.view.backgroundColor = [UIColor cyanColor];
     
     VideoDataManger *manger = [VideoDataManger sharedManager];
     
-    NSLog(@"%@",manger.videoDict);
-    NSLog(@"%@",manger.definition);
     VideoDataModel *model = manger.videoDict[manger.definition[0]];
     if (model) {
         NSURL *playUrl = [SHVideoInfoModel writeTofeildWithData:model.videos];
@@ -56,12 +55,34 @@
     [options setFormatOptionIntValue:1 forKey:@"auto_convert"];
     
     self.player = [[IJKFFMoviePlayerController alloc] initWithContentURL:videoUrl withOptions:options];
-    self.player.view.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
-    self.player.view.frame = CGRectMake(0, 64, SCREEN_WIDTH, ceilf(SCREEN_WIDTH * 9 / 16));
-    self.player.scalingMode = IJKMPMovieScalingModeAspectFill;
+    self.player.view.frame = CGRectMake(0, 0, SCREEN_WIDTH, ceilf(SCREEN_WIDTH * 9 / 16));
     self.player.shouldAutoplay = YES;
     [self.view addSubview:self.player.view];
     [self.player prepareToPlay];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeRotate) name:UIApplicationDidChangeStatusBarFrameNotification object:nil];
+    
+    VideoDataManger *manger = [VideoDataManger sharedManager];
+    manger.Orientation = UIInterfaceOrientationMaskAllButUpsideDown;
+}
+- (void)dealloc {
+    [self.player stop];
+    [self.player shutdown];
+    [self.player.view removeFromSuperview];
+    self.player = nil;
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+    [VideoDataManger interfaceOrientation:NO finishBlock:^{
+        VideoDataManger *manger = [VideoDataManger sharedManager];
+        manger.Orientation = UIInterfaceOrientationMaskPortrait;
+    }];
+}
+- (void)changeRotate {
+    
+    if (self.view.height < self.view.width) {
+        self.player.view.frame = CGRectMake(0, 0, self.view.width, self.view.height + 44);
+    }else {
+        self.player.view.frame = CGRectMake(0, 0, SCREEN_WIDTH, ceilf(SCREEN_WIDTH * 9 / 16));
+    }
 }
 
 - (void)didReceiveMemoryWarning {

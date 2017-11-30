@@ -12,7 +12,6 @@
 
 @interface VideoDataModel : NSObject
 
-@property (nonatomic, copy) NSString *definition;
 @property (nonatomic, copy) NSString *duration;
 @property (nonatomic, copy) NSString *size;
 @property (nonatomic, copy) NSString *title;
@@ -32,5 +31,9 @@
 @property (nonatomic, strong, readonly) NSArray *definition;
 
 + (instancetype)sharedManager;
+
+@property (nonatomic, assign) UIInterfaceOrientationMask Orientation;
+
++ (void)interfaceOrientation:(BOOL)orientation finishBlock:(void (^)(void))finish;
 
 @end

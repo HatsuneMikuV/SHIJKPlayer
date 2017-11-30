@@ -64,7 +64,7 @@
         if (dataDict) {
             for (NSString *key in dataDict) {
                 VideoDataModel *model = [VideoDataModel modelWithDict:dataDict[key]];
-                [dict setObject:model forKey:model.definition];
+                [dict setObject:model forKey:key];
             }
         }
         self.dataDict = dict;
@@ -76,5 +76,17 @@
 }
 - (NSArray *)definition {
     return [self.dataDict.allKeys sortedArrayUsingSelector:@selector(compare:)];
+}
+#pragma mark 强制屏幕转屏
++ (void)interfaceOrientation:(BOOL)orientation finishBlock:(void (^)(void))finish{
+    if (orientation) {
+        [[UIDevice currentDevice] setValue:[NSNumber numberWithInteger:UIDeviceOrientationLandscapeLeft] forKey:@"orientation"];
+    }else {
+        [[UIDevice currentDevice] setValue:[NSNumber numberWithInteger:UIDeviceOrientationPortrait] forKey:@"orientation"];
+    }
+    [UIViewController attemptRotationToDeviceOrientation];
+    if (finish) {
+        finish();
+    }
 }
 @end

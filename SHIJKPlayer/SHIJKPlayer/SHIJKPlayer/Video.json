@@ -1,58 +1,46 @@
-{    "video_3": {
-        "definition": 3,
-        "duration": 1532153,
+{    "3": {
+        "duration": 60280,
         "segments": [
             {
-                "duration": 430860,
-                    "size": 87833139,
-                    "url": "http://cn-zjwz2-dx.acgvideo.com/vg10/7/27/13806866-1.flv?expires=1511941200&platform=pc&ssig=3MRSP8d4dLK577Odhx5szw&oi=2014971003&nfa=iKQJtLw3Fy5f05Q/mDvFYw==&dynamic=1&hfa=2016242523&hfb=Yjk5ZmZjM2M1YzY4ZjAwYTMzMTIzYmIyNWY4ODJkNWI="
+                "duration": 30140,
+                    "size": 549521,
+                    "url": "http://200024424.vod.myqcloud.com/200024424_709ae516bdf811e6ad39991f76a4df69.f20.mp4"
             },
             {
-                "duration": 404454,
-                    "size": 80887244,
-                    "url": "http://cn-zjwz2-dx.acgvideo.com/vg10/7/27/13806866-2.flv?expires=1511941200&platform=pc&ssig=fahWBcWnNtES-Wioev9Urw&oi=2014971003&nfa=iKQJtLw3Fy5f05Q/mDvFYw==&dynamic=1&hfb=Yjk5ZmZjM2M1YzY4ZjAwYTMzMTIzYmIyNWY4ODJkNWI="
-            },
-            {
-                "duration": 146704,
-                    "size": 30204933,
-                    "url": "http://cn-zjwz2-dx.acgvideo.com/vg10/7/27/13806866-3.flv?expires=1511941200&platform=pc&ssig=ueVs6Qg-Xqii8Vwmwxu1Mg&oi=2014971003&nfa=iKQJtLw3Fy5f05Q/mDvFYw==&dynamic=1&hfb=Yjk5ZmZjM2M1YzY4ZjAwYTMzMTIzYmIyNWY4ODJkNWI="
-            },
-            {
-                "duration": 550135,
-                    "size": 109856181,
-                    "url": "http://cn-zjwz2-dx.acgvideo.com/vg10/7/27/13806866-4.flv?expires=1511941200&platform=pc&ssig=vhBXoRZBwUdUJwZi9btyww&oi=2014971003&nfa=iKQJtLw3Fy5f05Q/mDvFYw==&dynamic=1&hfb=Yjk5ZmZjM2M1YzY4ZjAwYTMzMTIzYmIyNWY4ODJkNWI="
+                "duration": 30140,
+                    "size": 549521,
+                     "url": "http://200024424.vod.myqcloud.com/200024424_709ae516bdf811e6ad39991f76a4df69.f20.mp4"
             }
         ],
-        "size": 308781497,
-        "title": "【封印者】中二少年的瓜皮战记",
-        "type": "flv"
-    },
-    "video_2": {
-        "definition": 2,
-        "duration": 1532224,
-        "segments": [
-            {
-                "duration": 1532224,
-                    "size": 237546069,
-                    "url": "http://tx.acgvideo.com/66/68/13806866/13806866-1-48.mp4?txTime=1511942068&platform=pc&txSecret=29b915f149e0fc6ff3c8b368343b4b1a&oi=2014971003&rate=1000&hfb=b99ffc3c5c68f00a33123bb25f882d5b"
-            }
-        ],
-        "size": 237546069,
-        "title": "【封印者】中二少年的瓜皮战记",
+        "size": 1099042,
+        "title": "测试视频三",
         "type": "mp4"
     },
-    "video_1": {
-        "definition": 1,
-        "duration": 1532559,
+    "2": {
+        "duration": 198100,
         "segments": [
             {
-                "duration": 1532559,
-                    "size": 108321115,
-                    "url": "http://cn-sdyt-cu-v-07.acgvideo.com/vg4/6/83/13806866-1.mp4?expires=1511942100&platform=pc&ssig=CtEmVcRR5c7DSdQ-K2g0FQ&oi=2014971003&nfa=iKQJtLw3Fy5f05Q/mDvFYw==&dynamic=1&hfa=2016243404&hfb=Yjk5ZmZjM2M1YzY4ZjAwYTMzMTIzYmIyNWY4ODJkNWI="
+                "duration": 198100,
+                    "size": 2270877,
+                    "url": "http://220.170.49.115/3/s/g/b/v/sgbvslnuyjdwtzbnvemgoavcvjcvyc/he.yinyuetai.com/9126015D11530FAF087B6353E4CB49F8.mp4"
             }
         ],
-        "size": 108321115,
-        "title": "【封印者】中二少年的瓜皮战记",
+        "size": 2270877,
+        "title": "测试视频",
+        "type": "mp4"
+    },
+    "1": {
+        "duration": 60095,
+        "segments": [
+            {
+                "duration": 60095,
+                    "size": 733621,
+                    "url": "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
+            }
+        ],
+        "size": 733621,
+        "title": "测试视频一",
         "type": "mp4"
     }
 }
+

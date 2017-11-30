@@ -17,7 +17,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    VideoDataManger *manger = [VideoDataManger sharedManager];
+    manger.Orientation = UIInterfaceOrientationMaskPortrait;
     return YES;
+}
+
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(nullable UIWindow *)window  NS_AVAILABLE_IOS(6_0) __TVOS_PROHIBITED {
+    VideoDataManger *manger = [VideoDataManger sharedManager];
+    return manger.Orientation;
 }
 
 

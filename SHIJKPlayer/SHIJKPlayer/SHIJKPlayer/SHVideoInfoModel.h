@@ -10,7 +10,7 @@
 
 @interface SHVideoInfoModel : NSObject
 
-/* 分片视频的时长，单位s */
+/* 分片视频的时长，单位ms */
 @property (nonatomic, copy) NSString *duration;
 
 /* 分片视频的时长，单位B */

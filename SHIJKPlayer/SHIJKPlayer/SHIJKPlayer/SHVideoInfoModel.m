@@ -35,7 +35,7 @@
     // 2.创建要存储的内容：字符串
     NSString *str = @"ffconcat version 1.0";
     for (SHVideoInfoModel *model in urlArr) {
-        str = [NSString stringWithFormat:@"%@\nfile %@\nduration %.0f",str,model.url,[model.duration floatValue]];
+        str = [NSString stringWithFormat:@"%@\nfile %@\nduration %.0f",str,model.url,[model.duration floatValue] / 1000];
     }
     NSLog(@"分片视频数据：%@",str);
     // 3.需要知道字符串最终存储的地方，所以需要创建一个路径去存储字符串
