@@ -26,10 +26,11 @@
     
     NSLog(@"%@",manger.videoDict);
     NSLog(@"%@",manger.definition);
-    VideoDataModel *model = manger.videoDict[manger.definition[2]];
+    VideoDataModel *model = manger.videoDict[manger.definition[0]];
     if (model) {
         NSURL *playUrl = [SHVideoInfoModel writeTofeildWithData:model.videos];
         
+        NSLog(@"===================================\n%@",playUrl);
         [self addPlayerView:playUrl];
     }
 }
