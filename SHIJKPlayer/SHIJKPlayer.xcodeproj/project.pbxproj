@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15B9FBD4CD6B8ED96CBB1232 /* libPods-SHIJKPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA504D2341A310758D75DE6 /* libPods-SHIJKPlayer.a */; };
 		7C50EAE21FCD4BEE005212CC /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C50EAE01FCD4BA7005212CC /* libstdc++.tbd */; };
 		7C50EAE61FCD4C33005212CC /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C50EAD01FCD4798005212CC /* IJKMediaFramework.framework */; };
 		7C50EAE71FCD4C3B005212CC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C50EAE51FCD4C06005212CC /* AudioToolbox.framework */; };
@@ -36,6 +37,11 @@
 		7CA4A91E1FCC1BFB00EAE41D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4A91D1FCC1BFB00EAE41D /* main.m */; };
 		7CBC374D1FCE821300A3DD02 /* Video.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CBC374C1FCE821300A3DD02 /* Video.json */; };
 		7CBC37521FCE84B600A3DD02 /* VideoDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC37511FCE84B600A3DD02 /* VideoDataModel.m */; };
+		7CBC37561FCEB22500A3DD02 /* SHButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC37551FCEB22500A3DD02 /* SHButton.m */; };
+		7CBC37591FCEB2B400A3DD02 /* SHLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC37581FCEB2B400A3DD02 /* SHLabel.m */; };
+		7CBC37601FCEC09E00A3DD02 /* UIFont+PingFangSC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC375F1FCEC09E00A3DD02 /* UIFont+PingFangSC.m */; };
+		7CBC37631FCEC0B800A3DD02 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC37621FCEC0B800A3DD02 /* UIColor+Hex.m */; };
+		7CBC376B1FCF9B1900A3DD02 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC376A1FCF9B1900A3DD02 /* UIView+Layout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +76,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6DDFEFA7EC8436A6A245CA6F /* Pods-SHIJKPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHIJKPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHIJKPlayer/Pods-SHIJKPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		7C50EAC91FCD4797005212CC /* IJKMediaPlayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IJKMediaPlayer.xcodeproj; path = ../ijkplayer/ios/IJKMediaPlayer/IJKMediaPlayer.xcodeproj; sourceTree = "<group>"; };
 		7C50EAE01FCD4BA7005212CC /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		7C50EAE51FCD4C06005212CC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -111,6 +118,19 @@
 		7CBC374C1FCE821300A3DD02 /* Video.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Video.json; sourceTree = "<group>"; };
 		7CBC37501FCE84B600A3DD02 /* VideoDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoDataModel.h; sourceTree = "<group>"; };
 		7CBC37511FCE84B600A3DD02 /* VideoDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoDataModel.m; sourceTree = "<group>"; };
+		7CBC37541FCEB22500A3DD02 /* SHButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHButton.h; sourceTree = "<group>"; };
+		7CBC37551FCEB22500A3DD02 /* SHButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHButton.m; sourceTree = "<group>"; };
+		7CBC37571FCEB2B400A3DD02 /* SHLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHLabel.h; sourceTree = "<group>"; };
+		7CBC37581FCEB2B400A3DD02 /* SHLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHLabel.m; sourceTree = "<group>"; };
+		7CBC375E1FCEC09E00A3DD02 /* UIFont+PingFangSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+PingFangSC.h"; sourceTree = "<group>"; };
+		7CBC375F1FCEC09E00A3DD02 /* UIFont+PingFangSC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+PingFangSC.m"; sourceTree = "<group>"; };
+		7CBC37611FCEC0B800A3DD02 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		7CBC37621FCEC0B800A3DD02 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		7CBC37661FCEC4F300A3DD02 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7CBC37691FCF9B1900A3DD02 /* UIView+Layout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		7CBC376A1FCF9B1900A3DD02 /* UIView+Layout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		945097ADE854B06BCADD8454 /* Pods-SHIJKPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHIJKPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHIJKPlayer/Pods-SHIJKPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		ECA504D2341A310758D75DE6 /* libPods-SHIJKPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SHIJKPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +153,7 @@
 				7C50EAE71FCD4C3B005212CC /* AudioToolbox.framework in Frameworks */,
 				7C50EAE61FCD4C33005212CC /* IJKMediaFramework.framework in Frameworks */,
 				7C50EAE21FCD4BEE005212CC /* libstdc++.tbd in Frameworks */,
+				15B9FBD4CD6B8ED96CBB1232 /* libPods-SHIJKPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +187,7 @@
 				7C50EAE81FCD4C42005212CC /* AVFoundation.framework */,
 				7C50EAE51FCD4C06005212CC /* AudioToolbox.framework */,
 				7C50EAE01FCD4BA7005212CC /* libstdc++.tbd */,
+				ECA504D2341A310758D75DE6 /* libPods-SHIJKPlayer.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,6 +214,7 @@
 				7CA4A90D1FCC1BFB00EAE41D /* SHIJKPlayer */,
 				7CA4A90C1FCC1BFB00EAE41D /* Products */,
 				7C50EADD1FCD4BA7005212CC /* Frameworks */,
+				8A6D15977344C676F9C6BEE0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -206,7 +229,9 @@
 		7CA4A90D1FCC1BFB00EAE41D /* SHIJKPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				7CBC375A1FCEC07F00A3DD02 /* Helpper */,
 				7C50EB121FCE6CD5005212CC /* SHIJKPlayer */,
+				7CBC37661FCEC4F300A3DD02 /* PrefixHeader.pch */,
 				7CA4A90E1FCC1BFB00EAE41D /* AppDelegate.h */,
 				7CA4A90F1FCC1BFB00EAE41D /* AppDelegate.m */,
 				7CA4A9111FCC1BFB00EAE41D /* ViewController.h */,
@@ -228,6 +253,32 @@
 			path = SHIJKPlayer;
 			sourceTree = "<group>";
 		};
+		7CBC375A1FCEC07F00A3DD02 /* Helpper */ = {
+			isa = PBXGroup;
+			children = (
+				7CBC375E1FCEC09E00A3DD02 /* UIFont+PingFangSC.h */,
+				7CBC375F1FCEC09E00A3DD02 /* UIFont+PingFangSC.m */,
+				7CBC37611FCEC0B800A3DD02 /* UIColor+Hex.h */,
+				7CBC37621FCEC0B800A3DD02 /* UIColor+Hex.m */,
+				7CBC37541FCEB22500A3DD02 /* SHButton.h */,
+				7CBC37551FCEB22500A3DD02 /* SHButton.m */,
+				7CBC37571FCEB2B400A3DD02 /* SHLabel.h */,
+				7CBC37581FCEB2B400A3DD02 /* SHLabel.m */,
+				7CBC37691FCF9B1900A3DD02 /* UIView+Layout.h */,
+				7CBC376A1FCF9B1900A3DD02 /* UIView+Layout.m */,
+			);
+			path = Helpper;
+			sourceTree = "<group>";
+		};
+		8A6D15977344C676F9C6BEE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				945097ADE854B06BCADD8454 /* Pods-SHIJKPlayer.debug.xcconfig */,
+				6DDFEFA7EC8436A6A245CA6F /* Pods-SHIJKPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -235,9 +286,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CA4A9211FCC1BFB00EAE41D /* Build configuration list for PBXNativeTarget "SHIJKPlayer" */;
 			buildPhases = (
+				C5AF1589203F7BE992C3994F /* [CP] Check Pods Manifest.lock */,
 				7CA4A9071FCC1BFB00EAE41D /* Sources */,
 				7CA4A9081FCC1BFB00EAE41D /* Frameworks */,
 				7CA4A9091FCC1BFB00EAE41D /* Resources */,
+				8ACE13E1A930970BAB4DE2EA /* [CP] Embed Pods Frameworks */,
+				A1FA3169C82F6177A134EF1E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -326,19 +380,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8ACE13E1A930970BAB4DE2EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SHIJKPlayer/Pods-SHIJKPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1FA3169C82F6177A134EF1E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SHIJKPlayer/Pods-SHIJKPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5AF1589203F7BE992C3994F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SHIJKPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7CA4A9071FCC1BFB00EAE41D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7C50EB1B1FCE6D2E005212CC /* SHVideoInfoModel.m in Sources */,
+				7CBC37561FCEB22500A3DD02 /* SHButton.m in Sources */,
 				7CA4A9131FCC1BFB00EAE41D /* ViewController.m in Sources */,
+				7CBC37591FCEB2B400A3DD02 /* SHLabel.m in Sources */,
 				7C50EB151FCE6CF5005212CC /* SHIJKPlayerView.m in Sources */,
 				7CA4A91E1FCC1BFB00EAE41D /* main.m in Sources */,
+				7CBC37601FCEC09E00A3DD02 /* UIFont+PingFangSC.m in Sources */,
 				7C50EB181FCE6D18005212CC /* SHIJKPlayerVController.m in Sources */,
+				7CBC376B1FCF9B1900A3DD02 /* UIView+Layout.m in Sources */,
 				7CBC37521FCE84B600A3DD02 /* VideoDataModel.m in Sources */,
 				7C50EB0B1FCE6C6C005212CC /* DefaultViewController.m in Sources */,
 				7CA4A9101FCC1BFB00EAE41D /* AppDelegate.m in Sources */,
+				7CBC37631FCEC0B800A3DD02 /* UIColor+Hex.m in Sources */,
 				7C50EB0E1FCE6C8B005212CC /* ShardViewController.m in Sources */,
 				7C50EB111FCE6C9C005212CC /* FullScreenViewController.m in Sources */,
 			);
@@ -480,6 +590,7 @@
 		};
 		7CA4A9221FCC1BFB00EAE41D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945097ADE854B06BCADD8454 /* Pods-SHIJKPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +599,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/SHIJKPlayer/SHIJKPlayer",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SHIJKPlayer/PrefixHeader.pch";
 				INFOPLIST_FILE = SHIJKPlayer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -499,6 +612,7 @@
 		};
 		7CA4A9231FCC1BFB00EAE41D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DDFEFA7EC8436A6A245CA6F /* Pods-SHIJKPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +621,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/SHIJKPlayer/SHIJKPlayer",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SHIJKPlayer/PrefixHeader.pch";
 				INFOPLIST_FILE = SHIJKPlayer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

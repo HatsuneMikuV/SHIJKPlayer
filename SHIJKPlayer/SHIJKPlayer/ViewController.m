@@ -8,8 +8,6 @@
 
 #import "ViewController.h"
 
-#import "VideoDataModel.h"
-
 @interface ViewController ()
 
 @end
@@ -20,18 +18,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    
-    VideoDataManger *manger = [VideoDataManger sharedManager];
-    
-    
-    NSLog(@"%@",manger.videoDict);
-    
-    for (NSString *key in manger.videoDict) {
-        NSLog(@"================");
-        VideoDataModel *model =manger.videoDict[key];
-        NSURL *playUrl = [SHVideoInfoModel writeTofeildWithData:model.videos];
-        NSLog(@"%@",playUrl);
-    }
 }
 
 - (void)didReceiveMemoryWarning {
