@@ -6,6 +6,10 @@ In view of someone asking me how to implement the separate video playback, to de
 ---------仅限于iOS的Demo
 
 
+# 预览
+
+![](https://github.com/HatsuneMikuV/SHIJKPlayer/blob/master/SHIJKPlayer.gif)
+
 
 # ijkplayer
 
