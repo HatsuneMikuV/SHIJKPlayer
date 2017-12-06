@@ -45,6 +45,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7C3EF94E1FD7CBA900D56F6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C50EAC91FCD4797005212CC /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5450AFC11E63EA4300568494;
+			remoteInfo = IJKMediaFrameworkWithSSL;
+		};
 		7C50EACF1FCD4798005212CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7C50EAC91FCD4797005212CC /* IJKMediaPlayer.xcodeproj */;
@@ -296,6 +303,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				7C3EF94F1FD7CBA900D56F6E /* PBXTargetDependency */,
 				7C50EAD61FCD47DE005212CC /* PBXTargetDependency */,
 			);
 			name = SHIJKPlayer;
@@ -457,6 +465,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		7C3EF94F1FD7CBA900D56F6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IJKMediaFrameworkWithSSL;
+			targetProxy = 7C3EF94E1FD7CBA900D56F6E /* PBXContainerItemProxy */;
+		};
 		7C50EAD61FCD47DE005212CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IJKMediaFramework;
